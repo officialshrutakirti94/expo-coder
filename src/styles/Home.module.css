@@ -107,6 +107,12 @@
 .logo {
   position: relative;
 }
+
+.myImg{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -238,4 +244,11 @@
   margin: 0 25px;
   list-style: none;
   font-weight: bold;
+}
+
+.myImg{
+  border-radius: 10px;
+  position: absolute;
+  top: 31%;
+  left: 42%;
 }

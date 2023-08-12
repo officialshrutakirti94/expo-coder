@@ -13,18 +13,11 @@ export default function Home() {
       <Head>
         <title>Expo coder</title>
       </Head>
-      <nav className={styles.mainnav}>
-        <ul>
-        <Link href='/home'><li>Home</li></Link>
-          <Link href='/blogs'><li>blogs</li></Link>
-          <Link href='/about'><li>about</li></Link>
-          <Link href='/contact'><li>contact</li></Link>
-        </ul>
-      </nav>
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Expo Coder</h1>
         <div className="blogs">
           <div className="blog-item">
+            <Image className={styles.myImg} src='/home.jpg' width={237} height={158}></Image>
             <h1>how to learn javascript?</h1>
             <p>javascript is a language used for logic backend in web</p>
           </div>
